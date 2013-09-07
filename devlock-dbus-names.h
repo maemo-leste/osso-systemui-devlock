@@ -30,6 +30,7 @@
 /** FIXME: Order may not be correct */
 typedef enum {
 	DEVLOCK_QUERY_ENABLE,
+	DEVLOCK_QUERY_ENABLE_QUIET,
 	DEVLOCK_QUERY_OPEN,
 	DEVLOCK_QUERY_NOTE
 } devlock_query_mode;
