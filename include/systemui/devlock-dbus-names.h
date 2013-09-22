@@ -1,8 +1,8 @@
 /**
- * @file powerkeymenu-dbus-names.h
+ * @file devlock-dbus-names.h
  * DBus Interface to the System UI DevLock plugin
  * <p>
- * This file is part of osso-systemui-devlock
+ * This file is part of osso-systemui-devlock-dev
  * <p>
  * Copyright (C) 2013 Pali Rohár <pali.rohar@gmail.com>
  *
@@ -27,7 +27,6 @@
 #define SYSTEMUI_DEVLOCK_OPEN_REQ	"devlock_open"
 #define SYSTEMUI_DEVLOCK_CLOSE_REQ	"devlock_close"
 
-/** FIXME: Order may not be correct */
 typedef enum {
 	DEVLOCK_QUERY_ENABLE,
 	DEVLOCK_QUERY_ENABLE_QUIET,
@@ -35,7 +34,6 @@ typedef enum {
 	DEVLOCK_QUERY_NOTE
 } devlock_query_mode;
 
-/** FIXME: Order may not be correct */
 typedef enum {
 	DEVLOCK_RESPONSE_LOCKED,
 	DEVLOCK_RESPONSE_SHUTDOWN,
@@ -45,7 +43,6 @@ typedef enum {
 	DEVLOCK_RESPONSE_CANCEL
 } devlock_response_result;
 
-/** FIXME: Order may not be correct */
 typedef enum {
 	DEVLOCK_REPLY_LOCKED,
 	DEVLOCK_REPLY_VERIFY,
