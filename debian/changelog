@@ -1,3 +1,9 @@
+osso-systemui-devlock-dev (0.3.5) unstable; urgency=medium
+
+  * enable git builds
+
+ -- Ivan J. <parazyd@dyne.org>  Thu, 14 Sep 2017 21:37:00 +0200
+
 osso-systemui-devlock-dev (0.3.5+0m5) unstable; urgency=low
 
   * Initial Release.
