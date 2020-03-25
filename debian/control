@@ -7,6 +7,7 @@ Standards-Version: 4.3.0
 
 Package: osso-systemui-devlock-dev
 Architecture: all
+Multi-arch: foreign
 Depends: ${misc:Depends}
 Description: System UI device lock plugin development headers
  Development headers for System UI device lock.
