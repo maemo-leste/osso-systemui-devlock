@@ -1,9 +1,18 @@
-Source: osso-systemui-devlock-dev
-Section: devel
-Priority: extra
-Maintainer: Pali Rohár <pali.rohar@gmail.com>
-Build-Depends: debhelper (>= 10)
-Standards-Version: 4.3.0
+Source: osso-systemui-devlock
+Section: misc
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
+Build-Depends: debhelper (>= 5), pkg-config, libhildon1-dev, libgconf2-dev,
+ libgtk2.0-dev, libdbus-1-dev, libglib2.0-dev, mce-dev, libcodelockui1-dev,
+ osso-systemui-dev (>= 0.2.0.21), osso-systemui-dbus-dev, libdevlock-dev
+Priority: optional
+Standards-Version: 3.7.2
+
+Package: osso-systemui-devlock
+Architecture: any
+Multi-arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}, osso-systemui, mce
+Description: System UI device lock plugin
+ This package contains System UI device lock plugin.
 
 Package: osso-systemui-devlock-dev
 Architecture: all
